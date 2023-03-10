@@ -62,7 +62,12 @@ const routes = [
                   name: 'Lists',
                   component: Lists
                 }
-              ]
+              ],
+            },
+            {
+              path: 'tags/:id',
+              name: 'Tags',
+              component: Tags
             },
           ]
         }
